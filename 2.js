@@ -4,4 +4,6 @@ function tesreverse (a){
       b.push(a[i])
     }
     console.log (b)
-  }
+}
+
+console.log(tesreverse([1,2,3,4,5]))

@@ -9,7 +9,7 @@ function waktu(){
     jarakTempuh = kecepatan * lamaPerjalanan2
     jarak = jarak - jarakTempuh
     kecepatan = 2
-    lamaWaktu = (jarak/kecepatan) + lamaPerjalnan1 + lamaPerjalanan2 
+    lamaWaktu = (jarak/kecepatan) + lamaPerjalanan1 + lamaPerjalanan2 
     lamaJam = Math.floor(lamaWaktu/3600)
     lamaWaktu = lamaWaktu%3600
     lamaMenit = Math.floor(lamaWaktu/60)
@@ -18,3 +18,5 @@ function waktu(){
     console.log (lamaMenit + " Menit")
     console.log (lamaDetik + " Detik")
 }
+
+console.log(waktu())
